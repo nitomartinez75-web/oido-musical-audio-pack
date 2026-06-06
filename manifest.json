@@ -1,6 +1,6 @@
 {
   "packName": "Oído Musical Audio Pack",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Estructura inicial para alojar muestras MP3 normalizadas de Oído Musical.",
   "basePath": "./",
   "audioFormat": "mp3",
