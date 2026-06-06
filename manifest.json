@@ -1,6 +1,6 @@
 {
   "packName": "Oído Musical Audio Pack",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Estructura inicial para alojar muestras MP3 normalizadas de Oído Musical.",
   "basePath": "./",
   "audioFormat": "mp3",
@@ -139,6 +139,66 @@
               "C4"
             ],
             "tempoMs": 300
+          }
+        ]
+      },
+      "violin": {
+        "displayName": "Violín",
+        "family": "cuerda frotada",
+        "source": "TU-Note Violin Sample Library",
+        "type": "melodic",
+        "format": "mp3",
+        "notes": {
+          "C4": "audio/instruments/violin/C4.mp3",
+          "D4": "audio/instruments/violin/D4.mp3",
+          "E4": "audio/instruments/violin/E4.mp3",
+          "F4": "audio/instruments/violin/F4.mp3",
+          "A4": "audio/instruments/violin/A4.mp3",
+          "B4": "audio/instruments/violin/B4.mp3",
+          "C5": "audio/instruments/violin/C5.mp3",
+          "G5": "audio/instruments/violin/G5.mp3"
+        },
+        "phrases": [
+          {
+            "id": "violin_lirico_1",
+            "name": "Frase lírica ascendente",
+            "notes": [
+              "C4",
+              "D4",
+              "E4",
+              "F4",
+              "E4",
+              "D4",
+              "C4"
+            ],
+            "tempoMs": 520
+          },
+          {
+            "id": "violin_dulce_1",
+            "name": "Frase dulce y expresiva",
+            "notes": [
+              "E4",
+              "F4",
+              "A4",
+              "F4",
+              "E4",
+              "D4",
+              "C4"
+            ],
+            "tempoMs": 560
+          },
+          {
+            "id": "violin_brillante_1",
+            "name": "Frase brillante final",
+            "notes": [
+              "C4",
+              "E4",
+              "F4",
+              "A4",
+              "B4",
+              "C5"
+            ],
+            "tempoMs": 460
           }
         ]
       }
