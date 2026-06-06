@@ -1,0 +1,83 @@
+{
+  "displayName": "Flauta travesera",
+  "family": "viento madera",
+  "source": "University of Iowa Musical Instrument Samples",
+  "type": "melodic",
+  "format": "mp3",
+  "notes": {
+    "B3": "audio/instruments/flute/B3.mp3",
+    "C4": "audio/instruments/flute/C4.mp3",
+    "Cs4": "audio/instruments/flute/Cs4.mp3",
+    "D4": "audio/instruments/flute/D4.mp3",
+    "Ds4": "audio/instruments/flute/Ds4.mp3",
+    "E4": "audio/instruments/flute/E4.mp3",
+    "F4": "audio/instruments/flute/F4.mp3",
+    "Fs4": "audio/instruments/flute/Fs4.mp3",
+    "G4": "audio/instruments/flute/G4.mp3",
+    "Gs4": "audio/instruments/flute/Gs4.mp3",
+    "A4": "audio/instruments/flute/A4.mp3",
+    "As4": "audio/instruments/flute/As4.mp3",
+    "B4": "audio/instruments/flute/B4.mp3",
+    "C5": "audio/instruments/flute/C5.mp3",
+    "Cs5": "audio/instruments/flute/Cs5.mp3",
+    "D5": "audio/instruments/flute/D5.mp3",
+    "Ds5": "audio/instruments/flute/Ds5.mp3",
+    "E5": "audio/instruments/flute/E5.mp3",
+    "F5": "audio/instruments/flute/F5.mp3",
+    "Fs5": "audio/instruments/flute/Fs5.mp3",
+    "G5": "audio/instruments/flute/G5.mp3",
+    "Gs5": "audio/instruments/flute/Gs5.mp3",
+    "A5": "audio/instruments/flute/A5.mp3",
+    "As5": "audio/instruments/flute/As5.mp3",
+    "B5": "audio/instruments/flute/B5.mp3"
+  },
+  "phrases": [
+    {
+      "id": "flute_luminosa_1",
+      "name": "Frase luminosa ascendente",
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "A4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempoMs": 330
+    },
+    {
+      "id": "flute_aire_1",
+      "name": "Frase de aire y naturaleza",
+      "notes": [
+        "E4",
+        "G4",
+        "A4",
+        "C5",
+        "B4",
+        "A4",
+        "G4",
+        "E4"
+      ],
+      "tempoMs": 390
+    },
+    {
+      "id": "flute_juego_1",
+      "name": "Frase juguetona de flauta",
+      "notes": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "A4",
+        "G4",
+        "C5"
+      ],
+      "tempoMs": 300
+    }
+  ]
+}
