@@ -1,0 +1,12 @@
+{
+  "packName": "Oído Musical Audio Pack",
+  "version": "0.1.0",
+  "description": "Pack inicial de audio premium para la app educativa Oído Musical",
+  "basePath": "./",
+  "categories": {
+    "instruments": [],
+    "orff": [],
+    "animals": [],
+    "nature": []
+  }
+}
