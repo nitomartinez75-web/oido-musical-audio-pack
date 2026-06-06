@@ -1,12 +1,78 @@
 {
   "packName": "Oído Musical Audio Pack",
-  "version": "0.1.0",
-  "description": "Pack inicial de audio premium para la app educativa Oído Musical",
+  "version": "0.2.0",
+  "description": "Estructura inicial para alojar muestras MP3 normalizadas de Oído Musical.",
   "basePath": "./",
+  "audioFormat": "mp3",
+  "normalization": {
+    "targetPeakDb": -1.0,
+    "recommendedLufs": -16,
+    "fadeInMs": 8,
+    "fadeOutMs": 25
+  },
   "categories": {
-    "instruments": [],
-    "orff": [],
-    "animals": [],
-    "nature": []
+    "instruments": [
+      "piano",
+      "violin",
+      "flute",
+      "trumpet",
+      "clarinet",
+      "saxophone",
+      "cello",
+      "harp",
+      "guitar",
+      "bass",
+      "organ",
+      "xylophone"
+    ],
+    "orff": [
+      "maracas",
+      "triangle",
+      "claves",
+      "crotales",
+      "tambourine",
+      "pandero",
+      "bass_drum",
+      "snare_drum",
+      "woodblock"
+    ],
+    "animals": [
+      "birds",
+      "dog",
+      "cat",
+      "horse",
+      "frog"
+    ],
+    "nature": [
+      "rain",
+      "wind",
+      "waves",
+      "river",
+      "fire"
+    ]
+  },
+  "notes": {
+    "core": [
+      "C4",
+      "D4",
+      "E4",
+      "G4",
+      "A4",
+      "C5"
+    ],
+    "extended": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "A4",
+      "B4",
+      "C5"
+    ]
+  },
+  "namingRules": {
+    "instrumentNote": "audio/instruments/{instrument}/{NOTE}.mp3",
+    "oneShot": "audio/{category}/{sound}/{sound}_01.mp3"
   }
 }
