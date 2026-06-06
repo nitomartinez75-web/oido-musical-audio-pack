@@ -1,6 +1,6 @@
 {
   "packName": "Oído Musical Audio Pack",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Estructura inicial para alojar muestras MP3 normalizadas de Oído Musical.",
   "basePath": "./",
   "audioFormat": "mp3",
@@ -74,5 +74,74 @@
   "namingRules": {
     "instrumentNote": "audio/instruments/{instrument}/{NOTE}.mp3",
     "oneShot": "audio/{category}/{sound}/{sound}_01.mp3"
+  },
+  "sampleMap": {
+    "instruments": {
+      "piano": {
+        "displayName": "Piano",
+        "family": "cuerda percutida",
+        "source": "University of Iowa Musical Instrument Samples",
+        "type": "melodic",
+        "format": "mp3",
+        "notes": {
+          "C4": "audio/instruments/piano/C4.mp3",
+          "D4": "audio/instruments/piano/D4.mp3",
+          "E4": "audio/instruments/piano/E4.mp3",
+          "F4": "audio/instruments/piano/F4.mp3",
+          "G4": "audio/instruments/piano/G4.mp3",
+          "A4": "audio/instruments/piano/A4.mp3",
+          "B4": "audio/instruments/piano/B4.mp3",
+          "C5": "audio/instruments/piano/C5.mp3"
+        },
+        "phrases": [
+          {
+            "id": "piano_brillante_1",
+            "name": "Frase brillante ascendente",
+            "notes": [
+              "C4",
+              "E4",
+              "G4",
+              "A4",
+              "G4",
+              "E4",
+              "D4",
+              "C4"
+            ],
+            "tempoMs": 360
+          },
+          {
+            "id": "piano_dulce_1",
+            "name": "Frase dulce de pregunta y respuesta",
+            "notes": [
+              "E4",
+              "G4",
+              "A4",
+              "G4",
+              "F4",
+              "E4",
+              "D4",
+              "C4"
+            ],
+            "tempoMs": 420
+          },
+          {
+            "id": "piano_juego_1",
+            "name": "Frase juguetona",
+            "notes": [
+              "C4",
+              "D4",
+              "E4",
+              "G4",
+              "E4",
+              "D4",
+              "F4",
+              "E4",
+              "C4"
+            ],
+            "tempoMs": 300
+          }
+        ]
+      }
+    }
   }
 }
