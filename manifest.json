@@ -1,0 +1,224 @@
+{
+ "name": "Oído Musical · Pack de audio premium",
+ "version": "0.6.0",
+ "license_notes": {
+  "instrumentos": "Muestras derivadas de VCSL (CC0) y material propio del autor.",
+  "animales": "Grabaciones propias del autor."
+ },
+ "sampleMap": {
+  "instruments": {
+   "bajo": {
+    "notes": {
+     "As1": "audio/instruments/bajo/As1.mp3",
+     "As2": "audio/instruments/bajo/As2.mp3",
+     "E1": "audio/instruments/bajo/E1.mp3",
+     "E2": "audio/instruments/bajo/E2.mp3",
+     "E3": "audio/instruments/bajo/E3.mp3",
+     "G1": "audio/instruments/bajo/G1.mp3",
+     "G2": "audio/instruments/bajo/G2.mp3"
+    }
+   },
+   "clarinete": {
+    "notes": {
+     "As4": "audio/instruments/clarinete/As4.mp3",
+     "D4": "audio/instruments/clarinete/D4.mp3",
+     "F4": "audio/instruments/clarinete/F4.mp3"
+    }
+   },
+   "flauta": {
+    "notes": {
+     "A4": "audio/instruments/flauta/A4.mp3",
+     "A5": "audio/instruments/flauta/A5.mp3",
+     "As4": "audio/instruments/flauta/As4.mp3",
+     "As5": "audio/instruments/flauta/As5.mp3",
+     "B3": "audio/instruments/flauta/B3.mp3",
+     "B4": "audio/instruments/flauta/B4.mp3",
+     "B5": "audio/instruments/flauta/B5.mp3",
+     "C4": "audio/instruments/flauta/C4.mp3",
+     "C5": "audio/instruments/flauta/C5.mp3",
+     "Cs4": "audio/instruments/flauta/Cs4.mp3",
+     "Cs5": "audio/instruments/flauta/Cs5.mp3",
+     "D4": "audio/instruments/flauta/D4.mp3",
+     "D5": "audio/instruments/flauta/D5.mp3",
+     "Ds4": "audio/instruments/flauta/Ds4.mp3",
+     "Ds5": "audio/instruments/flauta/Ds5.mp3",
+     "E4": "audio/instruments/flauta/E4.mp3",
+     "E5": "audio/instruments/flauta/E5.mp3",
+     "F4": "audio/instruments/flauta/F4.mp3",
+     "F5": "audio/instruments/flauta/F5.mp3",
+     "Fs4": "audio/instruments/flauta/Fs4.mp3",
+     "Fs5": "audio/instruments/flauta/Fs5.mp3",
+     "G4": "audio/instruments/flauta/G4.mp3",
+     "G5": "audio/instruments/flauta/G5.mp3",
+     "Gs4": "audio/instruments/flauta/Gs4.mp3",
+     "Gs5": "audio/instruments/flauta/Gs5.mp3"
+    }
+   },
+   "glockenspiel": {
+    "notes": {
+     "C6": "audio/instruments/glockenspiel/C6.mp3",
+     "C7": "audio/instruments/glockenspiel/C7.mp3",
+     "E6": "audio/instruments/glockenspiel/E6.mp3",
+     "G6": "audio/instruments/glockenspiel/G6.mp3"
+    }
+   },
+   "marimba": {
+    "notes": {
+     "B4": "audio/instruments/marimba/B4.mp3",
+     "C4": "audio/instruments/marimba/C4.mp3",
+     "C5": "audio/instruments/marimba/C5.mp3",
+     "E4": "audio/instruments/marimba/E4.mp3",
+     "G4": "audio/instruments/marimba/G4.mp3"
+    }
+   },
+   "piano": {
+    "notes": {
+     "A3": "audio/instruments/piano/A3.mp3",
+     "A4": "audio/instruments/piano/A4.mp3",
+     "A5": "audio/instruments/piano/A5.mp3",
+     "B3": "audio/instruments/piano/B3.mp3",
+     "B4": "audio/instruments/piano/B4.mp3",
+     "B5": "audio/instruments/piano/B5.mp3",
+     "C4": "audio/instruments/piano/C4.mp3",
+     "C5": "audio/instruments/piano/C5.mp3",
+     "C6": "audio/instruments/piano/C6.mp3",
+     "D4": "audio/instruments/piano/D4.mp3",
+     "D5": "audio/instruments/piano/D5.mp3",
+     "E4": "audio/instruments/piano/E4.mp3",
+     "E5": "audio/instruments/piano/E5.mp3",
+     "F4": "audio/instruments/piano/F4.mp3",
+     "F5": "audio/instruments/piano/F5.mp3",
+     "G3": "audio/instruments/piano/G3.mp3",
+     "G4": "audio/instruments/piano/G4.mp3",
+     "G5": "audio/instruments/piano/G5.mp3"
+    }
+   },
+   "saxo": {
+    "notes": {
+     "A4": "audio/instruments/saxo/A4.mp3",
+     "C5": "audio/instruments/saxo/C5.mp3",
+     "D5": "audio/instruments/saxo/D5.mp3",
+     "E4": "audio/instruments/saxo/E4.mp3",
+     "G4": "audio/instruments/saxo/G4.mp3"
+    }
+   },
+   "violin": {
+    "notes": {
+     "A4": "audio/instruments/violin/A4.mp3",
+     "B4": "audio/instruments/violin/B4.mp3",
+     "C4": "audio/instruments/violin/C4.mp3",
+     "C5": "audio/instruments/violin/C5.mp3",
+     "D4": "audio/instruments/violin/D4.mp3",
+     "E4": "audio/instruments/violin/E4.mp3",
+     "F4": "audio/instruments/violin/F4.mp3",
+     "G5": "audio/instruments/violin/G5.mp3"
+    }
+   },
+   "violonchelo": {
+    "notes": {
+     "C3": "audio/instruments/violonchelo/C3.mp3",
+     "C4": "audio/instruments/violonchelo/C4.mp3",
+     "E3": "audio/instruments/violonchelo/E3.mp3",
+     "E4": "audio/instruments/violonchelo/E4.mp3",
+     "G3": "audio/instruments/violonchelo/G3.mp3"
+    }
+   },
+   "xilofono": {
+    "notes": {
+     "C5": "audio/instruments/xilofono/C5.mp3",
+     "C6": "audio/instruments/xilofono/C6.mp3",
+     "E5": "audio/instruments/xilofono/E5.mp3",
+     "G5": "audio/instruments/xilofono/G5.mp3"
+    }
+   },
+   "bombo": {
+    "phraseAudio": [
+     {
+      "id": "patron",
+      "url": "audio/phrases/bombo/patron.mp3"
+     }
+    ]
+   },
+   "caballo": {
+    "phraseAudio": [
+     {
+      "id": "caballo",
+      "url": "audio/phrases/caballo/caballo.mp3"
+     }
+    ]
+   },
+   "caja_china": {
+    "phraseAudio": [
+     {
+      "id": "patron",
+      "url": "audio/phrases/caja_china/patron.mp3"
+     }
+    ]
+   },
+   "claves": {
+    "phraseAudio": [
+     {
+      "id": "patron",
+      "url": "audio/phrases/claves/patron.mp3"
+     }
+    ]
+   },
+   "crotalos": {
+    "phraseAudio": [
+     {
+      "id": "patron",
+      "url": "audio/phrases/crotalos/patron.mp3"
+     }
+    ]
+   },
+   "gallina": {
+    "phraseAudio": [
+     {
+      "id": "gallina",
+      "url": "audio/phrases/gallina/gallina.mp3"
+     }
+    ]
+   },
+   "gato": {
+    "phraseAudio": [
+     {
+      "id": "gato",
+      "url": "audio/phrases/gato/gato.mp3"
+     }
+    ]
+   },
+   "maracas": {
+    "phraseAudio": [
+     {
+      "id": "patron",
+      "url": "audio/phrases/maracas/patron.mp3"
+     }
+    ]
+   },
+   "oveja": {
+    "phraseAudio": [
+     {
+      "id": "oveja",
+      "url": "audio/phrases/oveja/oveja.mp3"
+     }
+    ]
+   },
+   "pandero": {
+    "phraseAudio": [
+     {
+      "id": "patron",
+      "url": "audio/phrases/pandero/patron.mp3"
+     }
+    ]
+   },
+   "perro": {
+    "phraseAudio": [
+     {
+      "id": "perro",
+      "url": "audio/phrases/perro/perro.mp3"
+     }
+    ]
+   }
+  }
+ }
+}
